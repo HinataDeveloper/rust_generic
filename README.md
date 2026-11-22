@@ -1,2 +1,3 @@
-# rust_generic
-Learning Generic in Rust Programming Language
+# Learning Generic in Rust Programming Language
+
+## You can see all my practice in snapshots folder
