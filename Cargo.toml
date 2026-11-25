@@ -1,5 +1,5 @@
 [package]
-name = "project_name"
+name = "rust_generic"
 version = "0.1.0"
 edition = "2024"
 rust-version = "1.102"
@@ -28,5 +28,5 @@ clone_on_ref_ptr = "warn"
 [dependencies]
 
 [[bin]]
-name = "project-name"
+name = "rust-generic"
 path = "src/main.rs"
