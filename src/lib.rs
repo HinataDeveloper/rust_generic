@@ -2,7 +2,7 @@
 // Date: Wed Nov 25 2026
 // Educational and Practice Rust Programming Language Code
 
-// Dependency: ...
+// Dependency: Without any dependency
 
 // Kernel Version: 7.3.4-300.fc45.x86_64
 
