@@ -1,0 +1,45 @@
+// main.rs
+// Date: Fri Nov 27 2026
+// Educational and Practice Rust Programming Language Code
+
+// Project: Generic in Rust Programming Language
+// Goal: ...
+// Dependency: ...
+
+// Kernel Version: 7.3.4-300.fc45.x86_64
+
+// rustc 1.102.0-nightly (6c709eb42 2026-11-25)
+// binary: rustc
+// commit-hash: 6c709eb428d472a3c3d93681c1ba37d44a1c27cf
+// commit-date: 2026-11-25
+// host: x86_64-unknown-linux-gnu
+// release: 1.102.0-nightly
+// LLVM version: 23.1.6
+
+// cargo 1.102.0-nightly (ae8f06eb4 2026-11-21)
+// release: 1.102.0-nightly
+// commit-hash: ae8f06eb41b8c4a534d0f280f1b9d287f45ead73
+// commit-date: 2026-11-21
+// host: x86_64-unknown-linux-gnu
+// libgit2: 1.9.6 (sys:0.21.0 vendored)
+// libcurl: 8.21.0-DEV (sys:0.4.90+curl-8.21.0 vendored ssl:OpenSSL/3.6.3)
+// ssl: OpenSSL 3.6.3 9 Jun 2026
+// os: Fedora 45.0.0 [64-bit]
+
+use rust_generic::get_length;
+use rust_generic::input_message;
+
+fn main() {
+    println!("\n");
+
+    let msg_result = input_message();
+    match msg_result {
+        Ok(msg) => {
+            let length = get_length(msg);
+            println!("length of the input message is: {length}");
+        }
+        Err(err) => eprintln!("--->>> {err}"),
+    }
+
+    println!("\nThe End ...\n");
+}
