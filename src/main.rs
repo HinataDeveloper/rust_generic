@@ -15,7 +15,7 @@
 // host: x86_64-unknown-linux-gnu
 // release: 1.102.0-nightly
 // LLVM version: 23.1.6
-
+ 
 // cargo 1.102.0-nightly (ae8f06eb4 2026-11-21)
 // release: 1.102.0-nightly
 // commit-hash: ae8f06eb41b8c4a534d0f280f1b9d287f45ead73
